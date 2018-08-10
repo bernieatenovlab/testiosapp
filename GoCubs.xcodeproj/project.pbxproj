@@ -1,0 +1,1112 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011E6F4475C19CC9CA1CBB79 /* Pods_GoCubsKIFTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA53D0C81EAA3107DC08020B /* Pods_GoCubsKIFTests.framework */; };
+		331C5D3E1BCCA4ED00BFD183 /* AccessibilityLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C5D3D1BCCA4ED00BFD183 /* AccessibilityLabel.swift */; };
+		33BE0EC01BCD9C4500E96BF7 /* GoCubsKIFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE0EBF1BCD9C4500E96BF7 /* GoCubsKIFTests.swift */; };
+		33BE0EC81BCD9C9500E96BF7 /* XCTestCase+KIFTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE0EC71BCD9C9500E96BF7 /* XCTestCase+KIFTester.swift */; };
+		9B4330E71E6237110050F90E /* GoCubsEarlGreyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330E61E6237110050F90E /* GoCubsEarlGreyTests.swift */; };
+		9B4330EF1E6237260050F90E /* EarlGreyRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330EE1E6237260050F90E /* EarlGreyRobot.swift */; };
+		9B4330F01E6237400050F90E /* BasicRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE77E1E5B46210099AB77 /* BasicRobot.swift */; };
+		9B4330F11E6237400050F90E /* GameListRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE7821E5B46970099AB77 /* GameListRobot.swift */; };
+		9B4330F21E6237400050F90E /* GameDetailRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE78A1E5B6A6F0099AB77 /* GameDetailRobot.swift */; };
+		9B4330F31E6237400050F90E /* DateFormatter+Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE7861E5B68C00099AB77 /* DateFormatter+Months.swift */; };
+		9B4330F41E6237400050F90E /* RobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C23951E5BADA100C16866 /* RobotTests.swift */; };
+		9B4330F61E6239410050F90E /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330F51E6239410050F90E /* EarlGrey.swift */; };
+		9B4330F81E6296580050F90E /* UITableView+IndexPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330F71E6296580050F90E /* UITableView+IndexPaths.swift */; };
+		9B4330F91E6297E30050F90E /* UITableView+IndexPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330F71E6296580050F90E /* UITableView+IndexPaths.swift */; };
+		9B4330FA1E6297E40050F90E /* UITableView+IndexPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330F71E6296580050F90E /* UITableView+IndexPaths.swift */; };
+		9B4330FF1E63AF420050F90E /* GoCubsXCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330FC1E63AF420050F90E /* GoCubsXCUITests.swift */; };
+		9B4331011E63AF420050F90E /* XCUIRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4330FE1E63AF420050F90E /* XCUIRobot.swift */; };
+		9B4331031E63B2C70050F90E /* cubs2016.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9B4331021E63B2C70050F90E /* cubs2016.csv */; };
+		9B4331051E63D07F0050F90E /* PortionOfYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4331041E63D07F0050F90E /* PortionOfYear.swift */; };
+		9B4331061E63E7470050F90E /* PortionOfYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4331041E63D07F0050F90E /* PortionOfYear.swift */; };
+		9B491D711BF8D9C30040FFBD /* CubsGameDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B491D701BF8D9C30040FFBD /* CubsGameDataSource.swift */; };
+		9B491D731BF8D9DC0040FFBD /* cubs2015.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9B491D721BF8D9DC0040FFBD /* cubs2015.csv */; };
+		9B6C23971E5BADC900C16866 /* RobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C23951E5BADA100C16866 /* RobotTests.swift */; };
+		9B6C23981E5BADCA00C16866 /* RobotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C23951E5BADA100C16866 /* RobotTests.swift */; };
+		9B6C239A1E5BAEB400C16866 /* KIFRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C23991E5BAEB400C16866 /* KIFRobot.swift */; };
+		9B6C239B1E5BE16400C16866 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1F61BCB0CBC00EC08DC /* LocalizedString.swift */; };
+		9B6C239C1E5BE16400C16866 /* AccessibilityLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C5D3D1BCCA4ED00BFD183 /* AccessibilityLabel.swift */; };
+		9B6C239D1E5BE17E00C16866 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D51BCAFD8F00EC08DC /* Result.swift */; };
+		9B6C239E1E5BE18200C16866 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1FA1BCB4EA700EC08DC /* Team.swift */; };
+		9B6C239F1E5BE19900C16866 /* String+IntsWithDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1CD1BCAFD8F00EC08DC /* String+IntsWithDash.swift */; };
+		9B99D3CD1EE3824A0002F28E /* AccessibilityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D3CC1EE3824A0002F28E /* AccessibilityIdentifier.swift */; };
+		9B99D3CE1EE3824A0002F28E /* AccessibilityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99D3CC1EE3824A0002F28E /* AccessibilityIdentifier.swift */; };
+		9B99F1C31BCAFD5E00EC08DC /* ParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1C01BCAFD5E00EC08DC /* ParsingTests.swift */; };
+		9B99F1DB1BCAFD8F00EC08DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1C51BCAFD8F00EC08DC /* AppDelegate.swift */; };
+		9B99F1DC1BCAFD8F00EC08DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B99F1C61BCAFD8F00EC08DC /* Assets.xcassets */; };
+		9B99F1DE1BCAFD8F00EC08DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B99F1C91BCAFD8F00EC08DC /* Main.storyboard */; };
+		9B99F1E01BCAFD8F00EC08DC /* String+IntsWithDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1CD1BCAFD8F00EC08DC /* String+IntsWithDash.swift */; };
+		9B99F1E21BCAFD8F00EC08DC /* CubsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D01BCAFD8F00EC08DC /* CubsGame.swift */; };
+		9B99F1E31BCAFD8F00EC08DC /* CubsRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D11BCAFD8F00EC08DC /* CubsRecord.swift */; };
+		9B99F1E41BCAFD8F00EC08DC /* Opponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D31BCAFD8F00EC08DC /* Opponent.swift */; };
+		9B99F1E51BCAFD8F00EC08DC /* Pitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D41BCAFD8F00EC08DC /* Pitcher.swift */; };
+		9B99F1E61BCAFD8F00EC08DC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D51BCAFD8F00EC08DC /* Result.swift */; };
+		9B99F1E71BCAFD8F00EC08DC /* GameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D81BCAFD8F00EC08DC /* GameDetailViewController.swift */; };
+		9B99F1E81BCAFD8F00EC08DC /* Cubs2015TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1D91BCAFD8F00EC08DC /* Cubs2015TableViewController.swift */; };
+		9B99F1EB1BCAFDD300EC08DC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B99F1E91BCAFDD300EC08DC /* Launch Screen.storyboard */; };
+		9B99F1F11BCB05D900EC08DC /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1F01BCB05D900EC08DC /* SegueHandler.swift */; };
+		9B99F1F51BCB0B7B00EC08DC /* CubsGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1F41BCB0B7B00EC08DC /* CubsGameCell.swift */; };
+		9B99F1F71BCB0CBC00EC08DC /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1F61BCB0CBC00EC08DC /* LocalizedString.swift */; };
+		9B99F1FB1BCB4EA800EC08DC /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99F1FA1BCB4EA700EC08DC /* Team.swift */; };
+		9B9AE7801E5B46210099AB77 /* BasicRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE77E1E5B46210099AB77 /* BasicRobot.swift */; };
+		9B9AE7811E5B46210099AB77 /* BasicRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE77E1E5B46210099AB77 /* BasicRobot.swift */; };
+		9B9AE7841E5B46970099AB77 /* GameListRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE7821E5B46970099AB77 /* GameListRobot.swift */; };
+		9B9AE7851E5B46970099AB77 /* GameListRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE7821E5B46970099AB77 /* GameListRobot.swift */; };
+		9B9AE7881E5B68C00099AB77 /* DateFormatter+Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE7861E5B68C00099AB77 /* DateFormatter+Months.swift */; };
+		9B9AE7891E5B68C00099AB77 /* DateFormatter+Months.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE7861E5B68C00099AB77 /* DateFormatter+Months.swift */; };
+		9B9AE78C1E5B6A6F0099AB77 /* GameDetailRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE78A1E5B6A6F0099AB77 /* GameDetailRobot.swift */; };
+		9B9AE78D1E5B6A6F0099AB77 /* GameDetailRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE78A1E5B6A6F0099AB77 /* GameDetailRobot.swift */; };
+		EE1589B1288B0E12A1FAEFC6 /* Pods_GoCubsEarlGreyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8410489F8B5D4F1FBE46BB /* Pods_GoCubsEarlGreyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		331C5D661BCCACBB00BFD183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336DA39E1BBAFFC700B9CBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336DA3A51BBAFFC700B9CBD8;
+			remoteInfo = GoCubs;
+		};
+		336DA3BD1BBAFFC800B9CBD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336DA39E1BBAFFC700B9CBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336DA3A51BBAFFC700B9CBD8;
+			remoteInfo = Xcode7UITesting;
+		};
+		33BE0EC21BCD9C4500E96BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336DA39E1BBAFFC700B9CBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336DA3A51BBAFFC700B9CBD8;
+			remoteInfo = GoCubs;
+		};
+		9B4330E91E6237110050F90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336DA39E1BBAFFC700B9CBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336DA3A51BBAFFC700B9CBD8;
+			remoteInfo = GoCubs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B8410489F8B5D4F1FBE46BB /* Pods_GoCubsEarlGreyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoCubsEarlGreyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		331C5D3D1BCCA4ED00BFD183 /* AccessibilityLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityLabel.swift; sourceTree = "<group>"; };
+		331C5D611BCCACBA00BFD183 /* GoCubsXCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoCubsXCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		336DA3A61BBAFFC800B9CBD8 /* GoCubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoCubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336DA3BC1BBAFFC800B9CBD8 /* GoCubs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoCubs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BE0EBD1BCD9C4500E96BF7 /* GoCubsKIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoCubsKIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BE0EBF1BCD9C4500E96BF7 /* GoCubsKIFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCubsKIFTests.swift; sourceTree = "<group>"; };
+		33BE0EC11BCD9C4500E96BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BE0EC71BCD9C9500E96BF7 /* XCTestCase+KIFTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+KIFTester.swift"; sourceTree = "<group>"; };
+		5D4051E2C21D8CB702457AA3 /* Pods-GoCubsKIFTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoCubsKIFTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoCubsKIFTests/Pods-GoCubsKIFTests.release.xcconfig"; sourceTree = "<group>"; };
+		97B6818FDDF90D413D63CF6F /* Pods-GoCubsEarlGreyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoCubsEarlGreyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoCubsEarlGreyTests/Pods-GoCubsEarlGreyTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B4330E41E6237110050F90E /* GoCubsEarlGreyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoCubsEarlGreyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4330E61E6237110050F90E /* GoCubsEarlGreyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCubsEarlGreyTests.swift; sourceTree = "<group>"; };
+		9B4330E81E6237110050F90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4330EE1E6237260050F90E /* EarlGreyRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGreyRobot.swift; sourceTree = "<group>"; };
+		9B4330F51E6239410050F90E /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		9B4330F71E6296580050F90E /* UITableView+IndexPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+IndexPaths.swift"; sourceTree = "<group>"; };
+		9B4330FC1E63AF420050F90E /* GoCubsXCUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoCubsXCUITests.swift; sourceTree = "<group>"; };
+		9B4330FD1E63AF420050F90E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4330FE1E63AF420050F90E /* XCUIRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCUIRobot.swift; sourceTree = "<group>"; };
+		9B4331021E63B2C70050F90E /* cubs2016.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cubs2016.csv; sourceTree = "<group>"; };
+		9B4331041E63D07F0050F90E /* PortionOfYear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortionOfYear.swift; sourceTree = "<group>"; };
+		9B491D701BF8D9C30040FFBD /* CubsGameDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubsGameDataSource.swift; sourceTree = "<group>"; };
+		9B491D721BF8D9DC0040FFBD /* cubs2015.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cubs2015.csv; sourceTree = "<group>"; };
+		9B6C23951E5BADA100C16866 /* RobotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotTests.swift; sourceTree = "<group>"; };
+		9B6C23991E5BAEB400C16866 /* KIFRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KIFRobot.swift; sourceTree = "<group>"; };
+		9B99D3CC1EE3824A0002F28E /* AccessibilityIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityIdentifier.swift; sourceTree = "<group>"; };
+		9B99F1BF1BCAFD5E00EC08DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GoCubsTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		9B99F1C01BCAFD5E00EC08DC /* ParsingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParsingTests.swift; path = GoCubsTests/ParsingTests.swift; sourceTree = SOURCE_ROOT; };
+		9B99F1C51BCAFD8F00EC08DC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B99F1C61BCAFD8F00EC08DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B99F1CA1BCAFD8F00EC08DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B99F1CD1BCAFD8F00EC08DC /* String+IntsWithDash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+IntsWithDash.swift"; sourceTree = "<group>"; };
+		9B99F1CE1BCAFD8F00EC08DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B99F1D01BCAFD8F00EC08DC /* CubsGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubsGame.swift; sourceTree = "<group>"; };
+		9B99F1D11BCAFD8F00EC08DC /* CubsRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubsRecord.swift; sourceTree = "<group>"; };
+		9B99F1D31BCAFD8F00EC08DC /* Opponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Opponent.swift; sourceTree = "<group>"; };
+		9B99F1D41BCAFD8F00EC08DC /* Pitcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitcher.swift; sourceTree = "<group>"; };
+		9B99F1D51BCAFD8F00EC08DC /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		9B99F1D81BCAFD8F00EC08DC /* GameDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailViewController.swift; sourceTree = "<group>"; };
+		9B99F1D91BCAFD8F00EC08DC /* Cubs2015TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cubs2015TableViewController.swift; sourceTree = "<group>"; };
+		9B99F1EA1BCAFDD300EC08DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9B99F1F01BCB05D900EC08DC /* SegueHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandler.swift; sourceTree = "<group>"; };
+		9B99F1F41BCB0B7B00EC08DC /* CubsGameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CubsGameCell.swift; sourceTree = "<group>"; };
+		9B99F1F61BCB0CBC00EC08DC /* LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		9B99F1FA1BCB4EA700EC08DC /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		9B9AE77E1E5B46210099AB77 /* BasicRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicRobot.swift; sourceTree = "<group>"; };
+		9B9AE7821E5B46970099AB77 /* GameListRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListRobot.swift; sourceTree = "<group>"; };
+		9B9AE7861E5B68C00099AB77 /* DateFormatter+Months.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Months.swift"; sourceTree = "<group>"; };
+		9B9AE78A1E5B6A6F0099AB77 /* GameDetailRobot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDetailRobot.swift; sourceTree = "<group>"; };
+		A2388CF521F33FFFC59281F6 /* Pods-GoCubsEarlGreyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoCubsEarlGreyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoCubsEarlGreyTests/Pods-GoCubsEarlGreyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D843428D9B331C19F08888E3 /* Pods-GoCubsKIFTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoCubsKIFTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoCubsKIFTests/Pods-GoCubsKIFTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA53D0C81EAA3107DC08020B /* Pods_GoCubsKIFTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoCubsKIFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331C5D5E1BCCACBA00BFD183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336DA3A31BBAFFC700B9CBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336DA3B91BBAFFC800B9CBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BE0EBA1BCD9C4500E96BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011E6F4475C19CC9CA1CBB79 /* Pods_GoCubsKIFTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4330E11E6237110050F90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1589B1288B0E12A1FAEFC6 /* Pods_GoCubsEarlGreyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336DA39D1BBAFFC700B9CBD8 = {
+			isa = PBXGroup;
+			children = (
+				9B99F1C41BCAFD8F00EC08DC /* GoCubs */,
+				336DA3BF1BBAFFC800B9CBD8 /* GoCubsTests */,
+				9B9AE77D1E5B45E60099AB77 /* SharedUITestFiles */,
+				9B4330FB1E63AF420050F90E /* GoCubsXCUITests */,
+				33BE0EBE1BCD9C4500E96BF7 /* GoCubsKIFTests */,
+				9B4330E51E6237110050F90E /* GoCubsEarlGreyTests */,
+				336DA3A71BBAFFC800B9CBD8 /* Products */,
+				5F8AD1E993986C1FB67232AC /* Pods */,
+				B3C6D775622B9B47872BFF00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		336DA3A71BBAFFC800B9CBD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336DA3A61BBAFFC800B9CBD8 /* GoCubs.app */,
+				336DA3BC1BBAFFC800B9CBD8 /* GoCubs.xctest */,
+				331C5D611BCCACBA00BFD183 /* GoCubsXCUITests.xctest */,
+				33BE0EBD1BCD9C4500E96BF7 /* GoCubsKIFTests.xctest */,
+				9B4330E41E6237110050F90E /* GoCubsEarlGreyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336DA3BF1BBAFFC800B9CBD8 /* GoCubsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B99F1C01BCAFD5E00EC08DC /* ParsingTests.swift */,
+				9B99F1BF1BCAFD5E00EC08DC /* Info.plist */,
+			);
+			name = GoCubsTests;
+			path = Xcode7UITestingTests;
+			sourceTree = "<group>";
+		};
+		33BE0EBE1BCD9C4500E96BF7 /* GoCubsKIFTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6C23991E5BAEB400C16866 /* KIFRobot.swift */,
+				33BE0EC71BCD9C9500E96BF7 /* XCTestCase+KIFTester.swift */,
+				33BE0EBF1BCD9C4500E96BF7 /* GoCubsKIFTests.swift */,
+				33BE0EC11BCD9C4500E96BF7 /* Info.plist */,
+			);
+			path = GoCubsKIFTests;
+			sourceTree = "<group>";
+		};
+		5F8AD1E993986C1FB67232AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D843428D9B331C19F08888E3 /* Pods-GoCubsKIFTests.debug.xcconfig */,
+				5D4051E2C21D8CB702457AA3 /* Pods-GoCubsKIFTests.release.xcconfig */,
+				A2388CF521F33FFFC59281F6 /* Pods-GoCubsEarlGreyTests.debug.xcconfig */,
+				97B6818FDDF90D413D63CF6F /* Pods-GoCubsEarlGreyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B4330E51E6237110050F90E /* GoCubsEarlGreyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4330EE1E6237260050F90E /* EarlGreyRobot.swift */,
+				9B4330F51E6239410050F90E /* EarlGrey.swift */,
+				9B4330E61E6237110050F90E /* GoCubsEarlGreyTests.swift */,
+				9B4330E81E6237110050F90E /* Info.plist */,
+			);
+			path = GoCubsEarlGreyTests;
+			sourceTree = "<group>";
+		};
+		9B4330FB1E63AF420050F90E /* GoCubsXCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4330FE1E63AF420050F90E /* XCUIRobot.swift */,
+				9B4330FC1E63AF420050F90E /* GoCubsXCUITests.swift */,
+				9B4330FD1E63AF420050F90E /* Info.plist */,
+			);
+			path = GoCubsXCUITests;
+			sourceTree = "<group>";
+		};
+		9B491D6F1BF8D9C30040FFBD /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				9B491D701BF8D9C30040FFBD /* CubsGameDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		9B99F1C41BCAFD8F00EC08DC /* GoCubs */ = {
+			isa = PBXGroup;
+			children = (
+				9B99F1C51BCAFD8F00EC08DC /* AppDelegate.swift */,
+				9B99F1C61BCAFD8F00EC08DC /* Assets.xcassets */,
+				9B99F1C91BCAFD8F00EC08DC /* Main.storyboard */,
+				9B99F1EF1BCB05C900EC08DC /* DeStringers */,
+				9B491D6F1BF8D9C30040FFBD /* DataSources */,
+				9B99F1CC1BCAFD8F00EC08DC /* Extensions */,
+				9B99F1CF1BCAFD8F00EC08DC /* Models */,
+				9B99F1D71BCAFD8F00EC08DC /* ViewControllers */,
+				9B99F1DA1BCAFD8F00EC08DC /* Views */,
+				9B99F1E91BCAFDD300EC08DC /* Launch Screen.storyboard */,
+				9B99F1CE1BCAFD8F00EC08DC /* Info.plist */,
+			);
+			path = GoCubs;
+			sourceTree = "<group>";
+		};
+		9B99F1CC1BCAFD8F00EC08DC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B99F1CD1BCAFD8F00EC08DC /* String+IntsWithDash.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B99F1CF1BCAFD8F00EC08DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B491D721BF8D9DC0040FFBD /* cubs2015.csv */,
+				9B4331021E63B2C70050F90E /* cubs2016.csv */,
+				9B99F1D01BCAFD8F00EC08DC /* CubsGame.swift */,
+				9B99F1D11BCAFD8F00EC08DC /* CubsRecord.swift */,
+				9B99F1D31BCAFD8F00EC08DC /* Opponent.swift */,
+				9B99F1D41BCAFD8F00EC08DC /* Pitcher.swift */,
+				9B4331041E63D07F0050F90E /* PortionOfYear.swift */,
+				9B99F1D51BCAFD8F00EC08DC /* Result.swift */,
+				9B99F1FA1BCB4EA700EC08DC /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B99F1D71BCAFD8F00EC08DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B99F1D81BCAFD8F00EC08DC /* GameDetailViewController.swift */,
+				9B99F1D91BCAFD8F00EC08DC /* Cubs2015TableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9B99F1DA1BCAFD8F00EC08DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B99F1F41BCB0B7B00EC08DC /* CubsGameCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B99F1EF1BCB05C900EC08DC /* DeStringers */ = {
+			isa = PBXGroup;
+			children = (
+				9B99D3CC1EE3824A0002F28E /* AccessibilityIdentifier.swift */,
+				331C5D3D1BCCA4ED00BFD183 /* AccessibilityLabel.swift */,
+				9B99F1F61BCB0CBC00EC08DC /* LocalizedString.swift */,
+				9B99F1F01BCB05D900EC08DC /* SegueHandler.swift */,
+			);
+			path = DeStringers;
+			sourceTree = "<group>";
+		};
+		9B9AE77D1E5B45E60099AB77 /* SharedUITestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9B9AE77E1E5B46210099AB77 /* BasicRobot.swift */,
+				9B9AE7821E5B46970099AB77 /* GameListRobot.swift */,
+				9B9AE78A1E5B6A6F0099AB77 /* GameDetailRobot.swift */,
+				9B9AE7861E5B68C00099AB77 /* DateFormatter+Months.swift */,
+				9B6C23951E5BADA100C16866 /* RobotTests.swift */,
+				9B4330F71E6296580050F90E /* UITableView+IndexPaths.swift */,
+			);
+			path = SharedUITestFiles;
+			sourceTree = "<group>";
+		};
+		B3C6D775622B9B47872BFF00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA53D0C81EAA3107DC08020B /* Pods_GoCubsKIFTests.framework */,
+				0B8410489F8B5D4F1FBE46BB /* Pods_GoCubsEarlGreyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331C5D601BCCACBA00BFD183 /* GoCubsXCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331C5D681BCCACBB00BFD183 /* Build configuration list for PBXNativeTarget "GoCubsXCUITests" */;
+			buildPhases = (
+				331C5D5D1BCCACBA00BFD183 /* Sources */,
+				331C5D5E1BCCACBA00BFD183 /* Frameworks */,
+				331C5D5F1BCCACBA00BFD183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				331C5D671BCCACBB00BFD183 /* PBXTargetDependency */,
+			);
+			name = GoCubsXCUITests;
+			productName = GoCubsUITests;
+			productReference = 331C5D611BCCACBA00BFD183 /* GoCubsXCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		336DA3A51BBAFFC700B9CBD8 /* GoCubs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336DA3D01BBAFFC800B9CBD8 /* Build configuration list for PBXNativeTarget "GoCubs" */;
+			buildPhases = (
+				336DA3A21BBAFFC700B9CBD8 /* Sources */,
+				336DA3A31BBAFFC700B9CBD8 /* Frameworks */,
+				336DA3A41BBAFFC700B9CBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoCubs;
+			productName = Xcode7UITesting;
+			productReference = 336DA3A61BBAFFC800B9CBD8 /* GoCubs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		336DA3BB1BBAFFC800B9CBD8 /* GoCubsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336DA3D31BBAFFC800B9CBD8 /* Build configuration list for PBXNativeTarget "GoCubsTests" */;
+			buildPhases = (
+				336DA3B81BBAFFC800B9CBD8 /* Sources */,
+				336DA3B91BBAFFC800B9CBD8 /* Frameworks */,
+				336DA3BA1BBAFFC800B9CBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				336DA3BE1BBAFFC800B9CBD8 /* PBXTargetDependency */,
+			);
+			name = GoCubsTests;
+			productName = Xcode7UITestingTests;
+			productReference = 336DA3BC1BBAFFC800B9CBD8 /* GoCubs.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33BE0EBC1BCD9C4500E96BF7 /* GoCubsKIFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BE0EC61BCD9C4500E96BF7 /* Build configuration list for PBXNativeTarget "GoCubsKIFTests" */;
+			buildPhases = (
+				33128229808D6B30AA822C25 /* [CP] Check Pods Manifest.lock */,
+				33BE0EB91BCD9C4500E96BF7 /* Sources */,
+				33BE0EBA1BCD9C4500E96BF7 /* Frameworks */,
+				33BE0EBB1BCD9C4500E96BF7 /* Resources */,
+				3AE4299F52CA040703A0AA65 /* [CP] Embed Pods Frameworks */,
+				2552EFB685F2D69621B6D7DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33BE0EC31BCD9C4500E96BF7 /* PBXTargetDependency */,
+			);
+			name = GoCubsKIFTests;
+			productName = GoCubsKIFTests;
+			productReference = 33BE0EBD1BCD9C4500E96BF7 /* GoCubsKIFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B4330E31E6237110050F90E /* GoCubsEarlGreyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4330ED1E6237110050F90E /* Build configuration list for PBXNativeTarget "GoCubsEarlGreyTests" */;
+			buildPhases = (
+				30AB668854264E1EF688B830 /* [CP] Check Pods Manifest.lock */,
+				9B4330E01E6237110050F90E /* Sources */,
+				9B4330E11E6237110050F90E /* Frameworks */,
+				9B4330E21E6237110050F90E /* Resources */,
+				E9110B8EECE94559AD874D18 /* [CP] Embed Pods Frameworks */,
+				49A197FAC02B6452120A597C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B4330EA1E6237110050F90E /* PBXTargetDependency */,
+			);
+			name = GoCubsEarlGreyTests;
+			productName = GoCubsEarlGreyTests;
+			productReference = 9B4330E41E6237110050F90E /* GoCubsEarlGreyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336DA39E1BBAFFC700B9CBD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Designated Nerd Software";
+				TargetAttributes = {
+					331C5D601BCCACBA00BFD183 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0900;
+						TestTargetID = 336DA3A51BBAFFC700B9CBD8;
+					};
+					336DA3A51BBAFFC700B9CBD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0900;
+					};
+					336DA3BB1BBAFFC800B9CBD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0900;
+						TestTargetID = 336DA3A51BBAFFC700B9CBD8;
+					};
+					33BE0EBC1BCD9C4500E96BF7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0900;
+						TestTargetID = 336DA3A51BBAFFC700B9CBD8;
+					};
+					9B4330E31E6237110050F90E = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336DA3A51BBAFFC700B9CBD8;
+					};
+				};
+			};
+			buildConfigurationList = 336DA3A11BBAFFC700B9CBD8 /* Build configuration list for PBXProject "GoCubs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336DA39D1BBAFFC700B9CBD8;
+			productRefGroup = 336DA3A71BBAFFC800B9CBD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336DA3A51BBAFFC700B9CBD8 /* GoCubs */,
+				336DA3BB1BBAFFC800B9CBD8 /* GoCubsTests */,
+				331C5D601BCCACBA00BFD183 /* GoCubsXCUITests */,
+				33BE0EBC1BCD9C4500E96BF7 /* GoCubsKIFTests */,
+				9B4330E31E6237110050F90E /* GoCubsEarlGreyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331C5D5F1BCCACBA00BFD183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336DA3A41BBAFFC700B9CBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B99F1DE1BCAFD8F00EC08DC /* Main.storyboard in Resources */,
+				9B99F1DC1BCAFD8F00EC08DC /* Assets.xcassets in Resources */,
+				9B99F1EB1BCAFDD300EC08DC /* Launch Screen.storyboard in Resources */,
+				9B4331031E63B2C70050F90E /* cubs2016.csv in Resources */,
+				9B491D731BF8D9DC0040FFBD /* cubs2015.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336DA3BA1BBAFFC800B9CBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BE0EBB1BCD9C4500E96BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4330E21E6237110050F90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2552EFB685F2D69621B6D7DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoCubsKIFTests/Pods-GoCubsKIFTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30AB668854264E1EF688B830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33128229808D6B30AA822C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3AE4299F52CA040703A0AA65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoCubsKIFTests/Pods-GoCubsKIFTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A197FAC02B6452120A597C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoCubsEarlGreyTests/Pods-GoCubsEarlGreyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9110B8EECE94559AD874D18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoCubsEarlGreyTests/Pods-GoCubsEarlGreyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331C5D5D1BCCACBA00BFD183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4330FA1E6297E40050F90E /* UITableView+IndexPaths.swift in Sources */,
+				9B9AE78C1E5B6A6F0099AB77 /* GameDetailRobot.swift in Sources */,
+				9B6C23971E5BADC900C16866 /* RobotTests.swift in Sources */,
+				9B6C239F1E5BE19900C16866 /* String+IntsWithDash.swift in Sources */,
+				9B9AE7881E5B68C00099AB77 /* DateFormatter+Months.swift in Sources */,
+				9B4331011E63AF420050F90E /* XCUIRobot.swift in Sources */,
+				9B9AE7841E5B46970099AB77 /* GameListRobot.swift in Sources */,
+				9B99D3CE1EE3824A0002F28E /* AccessibilityIdentifier.swift in Sources */,
+				9B6C239D1E5BE17E00C16866 /* Result.swift in Sources */,
+				9B4330FF1E63AF420050F90E /* GoCubsXCUITests.swift in Sources */,
+				9B4331061E63E7470050F90E /* PortionOfYear.swift in Sources */,
+				9B6C239B1E5BE16400C16866 /* LocalizedString.swift in Sources */,
+				9B6C239E1E5BE18200C16866 /* Team.swift in Sources */,
+				9B6C239C1E5BE16400C16866 /* AccessibilityLabel.swift in Sources */,
+				9B9AE7801E5B46210099AB77 /* BasicRobot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336DA3A21BBAFFC700B9CBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B99F1E21BCAFD8F00EC08DC /* CubsGame.swift in Sources */,
+				9B99F1F71BCB0CBC00EC08DC /* LocalizedString.swift in Sources */,
+				331C5D3E1BCCA4ED00BFD183 /* AccessibilityLabel.swift in Sources */,
+				9B99D3CD1EE3824A0002F28E /* AccessibilityIdentifier.swift in Sources */,
+				9B99F1E01BCAFD8F00EC08DC /* String+IntsWithDash.swift in Sources */,
+				9B491D711BF8D9C30040FFBD /* CubsGameDataSource.swift in Sources */,
+				9B99F1E41BCAFD8F00EC08DC /* Opponent.swift in Sources */,
+				9B99F1DB1BCAFD8F00EC08DC /* AppDelegate.swift in Sources */,
+				9B99F1FB1BCB4EA800EC08DC /* Team.swift in Sources */,
+				9B99F1E61BCAFD8F00EC08DC /* Result.swift in Sources */,
+				9B99F1F11BCB05D900EC08DC /* SegueHandler.swift in Sources */,
+				9B99F1E81BCAFD8F00EC08DC /* Cubs2015TableViewController.swift in Sources */,
+				9B99F1E31BCAFD8F00EC08DC /* CubsRecord.swift in Sources */,
+				9B99F1F51BCB0B7B00EC08DC /* CubsGameCell.swift in Sources */,
+				9B99F1E51BCAFD8F00EC08DC /* Pitcher.swift in Sources */,
+				9B99F1E71BCAFD8F00EC08DC /* GameDetailViewController.swift in Sources */,
+				9B4331051E63D07F0050F90E /* PortionOfYear.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336DA3B81BBAFFC800B9CBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B99F1C31BCAFD5E00EC08DC /* ParsingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BE0EB91BCD9C4500E96BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BE0EC81BCD9C9500E96BF7 /* XCTestCase+KIFTester.swift in Sources */,
+				9B9AE7811E5B46210099AB77 /* BasicRobot.swift in Sources */,
+				9B6C23981E5BADCA00C16866 /* RobotTests.swift in Sources */,
+				9B9AE7891E5B68C00099AB77 /* DateFormatter+Months.swift in Sources */,
+				9B9AE7851E5B46970099AB77 /* GameListRobot.swift in Sources */,
+				9B4330F91E6297E30050F90E /* UITableView+IndexPaths.swift in Sources */,
+				9B6C239A1E5BAEB400C16866 /* KIFRobot.swift in Sources */,
+				33BE0EC01BCD9C4500E96BF7 /* GoCubsKIFTests.swift in Sources */,
+				9B9AE78D1E5B6A6F0099AB77 /* GameDetailRobot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4330E01E6237110050F90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4330E71E6237110050F90E /* GoCubsEarlGreyTests.swift in Sources */,
+				9B4330F31E6237400050F90E /* DateFormatter+Months.swift in Sources */,
+				9B4330F01E6237400050F90E /* BasicRobot.swift in Sources */,
+				9B4330F21E6237400050F90E /* GameDetailRobot.swift in Sources */,
+				9B4330F61E6239410050F90E /* EarlGrey.swift in Sources */,
+				9B4330F41E6237400050F90E /* RobotTests.swift in Sources */,
+				9B4330F11E6237400050F90E /* GameListRobot.swift in Sources */,
+				9B4330F81E6296580050F90E /* UITableView+IndexPaths.swift in Sources */,
+				9B4330EF1E6237260050F90E /* EarlGreyRobot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		331C5D671BCCACBB00BFD183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336DA3A51BBAFFC700B9CBD8 /* GoCubs */;
+			targetProxy = 331C5D661BCCACBB00BFD183 /* PBXContainerItemProxy */;
+		};
+		336DA3BE1BBAFFC800B9CBD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336DA3A51BBAFFC700B9CBD8 /* GoCubs */;
+			targetProxy = 336DA3BD1BBAFFC800B9CBD8 /* PBXContainerItemProxy */;
+		};
+		33BE0EC31BCD9C4500E96BF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336DA3A51BBAFFC700B9CBD8 /* GoCubs */;
+			targetProxy = 33BE0EC21BCD9C4500E96BF7 /* PBXContainerItemProxy */;
+		};
+		9B4330EA1E6237110050F90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336DA3A51BBAFFC700B9CBD8 /* GoCubs */;
+			targetProxy = 9B4330E91E6237110050F90E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B99F1C91BCAFD8F00EC08DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B99F1CA1BCAFD8F00EC08DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B99F1E91BCAFDD300EC08DC /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B99F1EA1BCAFDD300EC08DC /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		331C5D691BCCACBB00BFD183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoCubsXCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.GoCubsXCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = GoCubs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		331C5D6A1BCCACBB00BFD183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoCubsXCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.GoCubsXCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = GoCubs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		336DA3CE1BBAFFC800B9CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		336DA3CF1BBAFFC800B9CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336DA3D11BBAFFC800B9CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoCubs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.Xcode7UITesting;
+				PRODUCT_NAME = GoCubs;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		336DA3D21BBAFFC800B9CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoCubs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.Xcode7UITesting;
+				PRODUCT_NAME = GoCubs;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		336DA3D41BBAFFC800B9CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoCubsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.Xcode7UITestingTests;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)Tests";
+				PRODUCT_NAME = GoCubs;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCubs.app/GoCubs";
+			};
+			name = Debug;
+		};
+		336DA3D51BBAFFC800B9CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoCubsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.Xcode7UITestingTests;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)Tests";
+				PRODUCT_NAME = GoCubs;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCubs.app/GoCubs";
+			};
+			name = Release;
+		};
+		33BE0EC41BCD9C4500E96BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D843428D9B331C19F08888E3 /* Pods-GoCubsKIFTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoCubsKIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.GoCubsKIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCubs.app/GoCubs";
+			};
+			name = Debug;
+		};
+		33BE0EC51BCD9C4500E96BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4051E2C21D8CB702457AA3 /* Pods-GoCubsKIFTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoCubsKIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.GoCubsKIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCubs.app/GoCubs";
+			};
+			name = Release;
+		};
+		9B4330EB1E6237110050F90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2388CF521F33FFFC59281F6 /* Pods-GoCubsEarlGreyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = GoCubsEarlGreyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.GoCubsEarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCubs.app/GoCubs";
+			};
+			name = Debug;
+		};
+		9B4330EC1E6237110050F90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B6818FDDF90D413D63CF6F /* Pods-GoCubsEarlGreyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				INFOPLIST_FILE = GoCubsEarlGreyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.designatednerd.GoCubsEarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCubs.app/GoCubs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331C5D681BCCACBB00BFD183 /* Build configuration list for PBXNativeTarget "GoCubsXCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331C5D691BCCACBB00BFD183 /* Debug */,
+				331C5D6A1BCCACBB00BFD183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336DA3A11BBAFFC700B9CBD8 /* Build configuration list for PBXProject "GoCubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336DA3CE1BBAFFC800B9CBD8 /* Debug */,
+				336DA3CF1BBAFFC800B9CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336DA3D01BBAFFC800B9CBD8 /* Build configuration list for PBXNativeTarget "GoCubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336DA3D11BBAFFC800B9CBD8 /* Debug */,
+				336DA3D21BBAFFC800B9CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336DA3D31BBAFFC800B9CBD8 /* Build configuration list for PBXNativeTarget "GoCubsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336DA3D41BBAFFC800B9CBD8 /* Debug */,
+				336DA3D51BBAFFC800B9CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BE0EC61BCD9C4500E96BF7 /* Build configuration list for PBXNativeTarget "GoCubsKIFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BE0EC41BCD9C4500E96BF7 /* Debug */,
+				33BE0EC51BCD9C4500E96BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4330ED1E6237110050F90E /* Build configuration list for PBXNativeTarget "GoCubsEarlGreyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B4330EB1E6237110050F90E /* Debug */,
+				9B4330EC1E6237110050F90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336DA39E1BBAFFC700B9CBD8 /* Project object */;
+}

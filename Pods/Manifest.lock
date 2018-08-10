@@ -1,0 +1,17 @@
+PODS:
+  - EarlGrey (1.12.1)
+  - KIF (3.6.0):
+    - KIF/Core (= 3.6.0)
+  - KIF/Core (3.6.0)
+
+DEPENDENCIES:
+  - EarlGrey
+  - KIF
+
+SPEC CHECKSUMS:
+  EarlGrey: f7774b813c888ebdb9a21e612d67874d17d5a326
+  KIF: bd770edd8ce49bc7308501e4871e58a02d137be3
+
+PODFILE CHECKSUM: 3dc89c55d8adfbdf03a4381981274ba36c45b0f8
+
+COCOAPODS: 1.1.1
